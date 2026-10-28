@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+
+
+
+
+<html lang="es">
+
+</html>
+
+<head>
+   <!-- CONFIGURACIÓN GENERAL: título de la pestaña, idioma y adaptación a celulares. -->
+
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <title>Buenavista Aprende| OVA de cultura general colombiana</title>
+  
+   <!-- Conecta los estilos visuales. El archivo está dentro de la carpeta css. -->
+   <link rel="stylesheet" href="css/estilos.css"> 
+</head>
+<body>
+<!-- ENCABEZADO: cambia aquí el nombre del OVA y el texto de presentación. -->
+
+<header>
+<h1>Buenavista Aprende</h1>
+<p>Objeto Virtual de Aprendizaje para fortalecer la cultura general colombiana en estudiantes de grado séptimo.</p>
+</header>
+
+<!-- MENÚ: cada enlace abre una sección. El valor de mostrar('...') debe coincidir con el id de la sección. -->
+<nav>
+<a onclick="mostrar('inicio')">Inicio</a>
+<a onclick="mostrar('historia')">Historia 📖</a>
+<a onclick="mostrar('geografia')">Geografía 🌎</a>
+<a onclick="mostrar('cultura')">Cultura 🎭</a>
+<a onclick="mostrar('naturaleza')">Ciencia y Naturaleza  🌱</a>
+<a onclick="mostrar('arte')">Arte y Personajes 🎨</a>
+<a onclick="mostrar('quiz')">Quiz 🗒️</a>
+<a onclick="mostrar('juegos')">Juegos 🎮</a>
+<a onclick="mostrar('video')">Video 🎬</a>
+<a onclick="mostrar('contacto')">Información del OVA ℹ️</a>
+</nav>
+
+<!-- CONTENIDO PRINCIPAL: cada section es una página/pestaña del OVA. Puedes editar los textos dentro de cada una. -->
+<main>
+
+<!-- INICIO: presentación, bienvenida y tarjetas para explorar los módulos. -->
+<section id="inicio" class="pagina activa">
+<h2>¡Bienvenidos a Buenavista Aprende!</h2>
+<p>Este OVA está dirigido a los estudiantes de grado séptimo de la Institución Educativa José María Silva Salazar. Explora los contenidos, relaciona tus conocimientos previos y aprende sobre la cultura general de Colombia mediante actividades interactivas.</p>
+<div class="carrusel">
+<div class="slide activo">
+     <div class="emoji"></div>
+     <h3>Cultura general de Colombia</h3>
+     <p>Conoce la historia, las regiones naturales, las tradiciones y la diversidad cultural de nuestro país.
+
+     </p></div>
+<div class="slide">
+    <div class="emoji">🗺️</div>
+ <h3>Geografía</h3>
+ <p>Descubre las seis regiones naturales de Colombia, sus paisajes y sus características.     
+  </p></div>
+<div class="slide">
+     <div class="emoji"> 🌎 </div>
+         <h3>Diversidad cultural</h3>
+         <p>Reconoce las tradiciones, las lenguas, la música y la gastronomía de las comunidades colombianas.
+</p>
+</div>
+<div class="slide">
+    <div class="emoji">🧪🌱</div><h3>Ciencias y naturaleza
+
+    </h3>
+    <p>Aprende sobre los ecosistemas, la biodiversidad y el cuidado del ambiente.
+    </p>
+       </div>
+</div>
+<h2>Explora los módulos</h2>
+<div class="productos">
+<div class="producto">
+    <div class="icono">
+</div> 
+<h3>Historia de Colombia</h3>
+<p>Reconoce los pueblos indígenas y algunos acontecimientos importantes del proceso de independencia.</p><button class="boton" onclick="mostrar('historia')">Explorar</button></div>
+<div class="producto">
+    <div class="icono">
+
+    </div>
+    <h3>Geografía
+    </h3>
+        <p>Identifica las seis regiones naturales y las características del territorio colombiano.
+        </p>
+         <button class="boton" onclick="mostrar('geografia')">
+            Explorar</button></div>
+<div class="producto">
+    <div class="icono">
+
+</div>
+<h3>Cultura y Tradiciones
+</h3><p>Aprende sobre la diversidad cultural, la gastronomía y las expresiones musicales del país.
+</p> 
+    <button class="boton" onclick="mostrar('cultura')"
+    >Explorar</button></div>
+<div class="producto">
+    <div class="icono">
+    </div>
+       <h3>Ciencia y Naturaleza</h3>
+            <p>Comprende la biodiversidad colombiana y la importancia de cuidar los ecosistemas.
+            </p><button class="boton" onclick="mostrar('naturaleza')">Explorar</button>
+        </div>
+<div class="producto"><div class="icono">
+
+</div><h3>Arte y Personajes.
+</h3><p>Conoce a Fernando Botero, Gabriel García Márquez y otras expresiones del arte colombiano.
+</p>
+   <button class="boton" onclick="mostrar('arte')">Explorar</button></div>
+<div class="producto"><div class="icono"></div><h3>Quiz</h3><p>Comprueba lo aprendido sobre historia, geografía, cultura, gastronomía y biodiversidad.</p><button class="boton" onclick="mostrar('quiz')">Comenzar</button></div>
+</div>
+</section>
+
+<!-- HISTORIA: agrega datos históricos, personajes, fechas e imágenes relacionadas. -->
+<section id="historia" class="pagina">
+<h2>Historia de Colombia</h2><div class="contenido">
+<p>La historia de Colombia está formada por distintos pueblos, culturas y procesos sociales que han contribuido a la construcción del país. Conocerla permite comprender acontecimientos del pasado y su influencia en la sociedad actual.</p>
+<div class="tarjetas-info">
+<div class="info-box"><h4> Pueblos indígenas<
+  /h4><p>
+    Antes de la llegada de los europeos, el territorio estaba habitado por diversos pueblos indígenas con diferentes lenguas, costumbres, formas de organización y conocimientos.
+
+
+
+<div class="info-box"><h4> Conquista y colonia</h4><p>Durante los siglos XVI y siguientes se produjo la conquista española y posteriormente el establecimiento del periodo colonial.</p></div>
+<div class="info-box"><h4>🇨🇴 Independencia</h4><p>El proceso de independencia se desarrolló durante varias etapas. El 20 de julio de 1810 es una fecha fundamental de este proceso.</p></div>
+<div class="info-box"><h4> Batalla de Boyacá</h4><p>El 7 de agosto de 1819 tuvo lugar la Batalla de Boyacá, un acontecimiento decisivo dentro del proceso de independencia.</p></div>
+</div>
+<div class="dato"><strong>Para recordar:</strong> estudiar la historia ayuda a reconocer los aportes de diferentes pueblos y a comprender los procesos que han dado forma a Colombia.</div>
+</div><button class="boton" onclick="mostrar('inicio')">← Volver al inicio</button>
+</section>
+
+<!-- GEOGRAFÍA: agrega información de regiones, mapas, ríos y paisajes. -->
+<section id="geografia" class="pagina">
+<h2> Geografía de Colombia</h2><div class="contenido">
+<p>Colombia se encuentra en el extremo noroccidental de América del Sur y tiene costas sobre el mar Caribe y el océano Pacífico. Su territorio reúne montañas, valles, llanuras, selvas, costas e islas.</p>
+<h3> Regiones naturales</h3>
+<ul>
+<li><strong>Caribe:</strong> ubicada al norte; se distingue por sus costas, expresiones musicales y tradiciones gastronómicas.</li>
+<li><strong>Pacífica:</strong> ubicada al occidente; se destaca por su biodiversidad y por las tradiciones de comunidades afrocolombianas e indígenas.</li>
+<li><strong>Andina:</strong> comprende zonas montañosas de los Andes y una gran variedad de climas, ciudades y expresiones culturales.</li>
+<li><strong>Amazonía:</strong> se caracteriza por sus selvas, su biodiversidad y la presencia de diversos pueblos indígenas.</li>
+<li><strong>Orinoquía:</strong> conocida por sus extensas llanuras y por las tradiciones relacionadas con la música llanera.</li>
+<li><strong>Insular:</strong> formada por islas y archipiélagos, entre ellos San Andrés, Providencia y Santa Catalina.</li>
+</ul>
+<h3>Relieve y agua</h3><p>El territorio presenta montañas, valles, llanuras, selvas y costas. Entre los ríos importantes se encuentran el Magdalena, el Cauca, el Amazonas y el Orinoco. La variedad geográfica contribuye a la diversidad de climas, paisajes y formas de vida.</p>
+<div class="dato"><strong>
+    Dato:</strong> La diversidad geográfica ayuda a explicar la variedad de climas, paisajes, ecosistemas y formas de vida que existen en Colombia.</div>
+</div><button class="boton" onclick="mostrar('inicio')">← Volver al inicio</button>
+</section>
+
+<!-- CULTURA: agrega tradiciones, música, gastronomía, fiestas y diversidad cultural. -->
+<section id="cultura" class="pagina">
+<h2> Cultura y Tradiciones</h2><div class="contenido">
+<p>La cultura colombiana comprende conocimientos, costumbres, lenguas, expresiones artísticas y formas de vida transmitidas entre generaciones. En ella participan pueblos indígenas, comunidades negras, afrocolombianas, raizales y palenqueras, el pueblo Rrom y otros grupos.</p>
+<div class="tarjetas-info">
+<div class="info-box"><h4> 𝄞 Música</h4>
+   <p>Entre las expresiones musicales se encuentran la cumbia, el vallenato, el joropo y el currulao.
+
+   </p></div>
+<div class="info-box"><h4> 🥘 Gastronomía
+
+</h4><p>Algunas preparaciones reconocidas son las arepas, el sancocho, el ajiaco, los tamales y la bandeja paisa.</p></div>
+<div class="info-box"><h4>Diversidad étnica</h4><p>Los pueblos indígenas, las comunidades afrocolombianas, raizales y palenqueras, el pueblo Rrom y otros grupos contribuyen a la riqueza cultural del país.</p></div>
+<div class="info-box"><h4>Diversidad lingüística</h4><p>Las lenguas nativas y las formas de comunicación de las comunidades reflejan la historia y la diversidad cultural de Colombia.</p></div>
+</div>
+<h3>Diversidad cultural</h3><p>La diversidad se expresa en las distintas formas de hablar, cocinar, bailar, crear arte y celebrar. Reconocer estas diferencias promueve el respeto y ayuda a valorar las tradiciones de todas las comunidades.</p>
+</div><button class="boton" onclick="mostrar('inicio')">← Volver al inicio</button>
+</section>
+
+<!-- CIENCIA Y NATURALEZA: agrega información sobre animales, plantas, ecosistemas y conservación. -->
+<section id="naturaleza" class="pagina">
+<h2> Ciencia y Naturaleza</h2><div class="contenido">
+<h3> Biodiversidad</h3><p>La biodiversidad es la variedad de seres vivos y ecosistemas. Colombia presenta gran diversidad debido a sus diferentes regiones, climas y relieves.</p>
+<h3> Ecosistemas</h3><p>Se encuentran selvas tropicales, bosques, páramos, humedales, manglares, sabanas y ecosistemas marinos.</p>
+<h3> Fauna</h3><p>Entre los animales representativos están el cóndor de los Andes, tucanes y numerosas especies de colibríes, además de mamíferos, reptiles, anfibios y peces.</p>
+<h3> Flora</h3><p>Colombia cuenta con gran variedad de plantas, entre ellas orquídeas, frailejones y diferentes especies de palmas y árboles.</p>
+<div class="dato"><strong> Cuidemos la naturaleza:</strong> proteger los hábitats, evitar la contaminación y utilizar responsablemente los recursos contribuye a conservar la biodiversidad.</div>
+</div><button class="boton" onclick="mostrar('inicio')">← Volver al inicio</button>
+</section>
+
+<!-- ARTE Y PERSONAJES: agrega artistas, escritores, deportistas y otros personajes colombianos. -->
+<section id="arte" class="pagina">
+<h2> Arte y Personajes</h2><div class="contenido">
+<p>El arte colombiano reúne expresiones de pintura, escultura, literatura, música y danza. A través de ellas se comunican ideas, emociones, historias y características de las comunidades.</p>
+<div class="tarjetas-info">
+<div class="info-box"><h4> Fernando Botero</h4><p>Artista colombiano reconocido por su estilo característico en pintura y escultura, con figuras de formas voluminosas.</p></div>
+<div class="info-box"><h4>Gabriel García Márquez</h4><p>Escritor colombiano y autor de obras fundamentales de la literatura latinoamericana. Recibió el Premio Nobel de Literatura en 1982.</p></div>
+<div class="info-box"><h4> Literatura colombiana</h4><p>La literatura reúne obras de diferentes épocas y regiones y contribuye a conservar historias, ideas y experiencias del país.</p></div>
+<div class="info-box"><h4>Música y expresiones culturales</h4><p>La cumbia y el vallenato se asocian con el Caribe; el joropo con los Llanos Orientales; el bambuco con la tradición andina y el currulao con el Pacífico.</p></div>
+</div>
+<div class="dato"><strong> Aprende:</strong> Fernando Botero fue un pintor y escultor colombiano reconocido por su estilo de figuras voluminosas. Gabriel García Márquez recibió el Premio Nobel de Literatura en 1982.</div>
+</div><button class="boton" onclick="mostrar('inicio')">← Volver al inicio</button>
+</section>
+
+<!-- QUIZ: las preguntas y respuestas están aquí. En JavaScript se indica cómo se calcula el puntaje. -->
+<section id="quiz" class="pagina">
+<h2> Quiz de Cultura General de Colombia</h2><p>Responde las preguntas para practicar. Revisa tus selecciones y observa tu puntaje al finalizar.</p><div class="contenido">
+<div class="pregunta"><h3>1. ¿Cuántas regiones naturales se estudian tradicionalmente en Colombia?</h3><button class="respuesta" onclick="responder(this,false)">A. Cuatro</button><button class="respuesta" onclick="responder(this,false)">B. Cinco</button><button class="respuesta" onclick="responder(this,true)">C. Seis</button><button class="respuesta" onclick="responder(this,false)">D. Ocho</button></div>
+<div class="pregunta"><h3>2. ¿Cuál es una fecha fundamental del proceso de independencia?</h3><button class="respuesta" onclick="responder(this,false)">A. 7 de agosto de 1819</button><button class="respuesta" onclick="responder(this,true)">B. 20 de julio de 1810</button><button class="respuesta" onclick="responder(this,false)">C. 12 de octubre de 1492</button><button class="respuesta" onclick="responder(this,false)">D. 1 de enero de 1900</button></div>
+<div class="pregunta"><h3>3. ¿Qué expresión musical se relaciona con los Llanos Orientales?</h3><button class="respuesta" onclick="responder(this,false)">A. Currulao</button><button class="respuesta" onclick="responder(this,true)">B. Joropo</button><button class="respuesta" onclick="responder(this,false)">C. Vallenato</button><button class="respuesta" onclick="responder(this,false)">D. Bambuco</button></div>
+<div class="pregunta"><h3>4. ¿Cuál preparación es tradicional de Bogotá?</h3><button class="respuesta" onclick="responder(this,true)">A. Ajiaco santafereño</button><button class="respuesta" onclick="responder(this,false)">B. Lechona tolimense</button><button class="respuesta" onclick="responder(this,false)">C. Bandeja paisa</button><button class="respuesta" onclick="responder(this,false)">D. Sancocho de pescado del Pacífico</button></div>
+<div class="pregunta"><h3>5. ¿Qué escritor colombiano recibió el Premio Nobel de Literatura en 1982?</h3><button class="respuesta" onclick="responder(this,false)">A. Fernando Botero</button><button class="respuesta" onclick="responder(this,true)">B. Gabriel García Márquez</button><button class="respuesta" onclick="responder(this,false)">C. Rafael Pombo</button><button class="respuesta" onclick="responder(this,false)">D. Jorge Isaacs</button></div>
+<div id="resultado">Puntaje: 0 / 5</div>
+</div><button class="boton" onclick="reiniciarQuiz()">Reiniciar quiz</button><button class="boton" onclick="mostrar('inicio')">← Volver al inicio</button>
+</section>
+
+<!-- JUEGOS: aquí puedes agregar más actividades interactivas. -->
+<section id="juegos" class="pagina">
+<h2> Juegos educativos</h2><div class="contenido">
+<div class="juego-box">
+<h3>Sopa de letras</h3>
+<p>Encuentra palabras relacionadas con Colombia. Selecciona las letras de cada palabra <strong>de izquierda a derecha</strong>; las palabras están ubicadas horizontalmente.</p>
+<p><strong>Palabras por encontrar:</strong></p>
+<ul id="listaPalabras" class="palabras-lista" aria-label="Lista de palabras por encontrar">
+<li data-palabra="COLOMBIA">COLOMBIA</li>
+<li data-palabra="CUMBIA">CUMBIA</li>
+<li data-palabra="ANDES">ANDES</li>
+<li data-palabra="AMAZONAS">AMAZONAS</li>
+<li data-palabra="CARIBE">CARIBE</li>
+<li data-palabra="JOROPO">JOROPO</li>
+</ul>
+<div class="sopa" id="sopa" role="group" aria-label="Sopa de letras de diez filas por diez columnas"></div>
+<p id="mensajeSopa" role="status" aria-live="polite" style="text-align:center;font-weight:bold;" >Palabras encontradas: 0 de 6. ¡Empieza buscando una palabra!</p>
+<div style="text-align:center"><button class="boton" type="button" onclick="reiniciarSopa()">Reiniciar sopa de letras</button></div>
+</div>
+
+</div><button class="boton" onclick="mostrar('inicio')">← Volver al inicio</button>
+</section>
+
+<!-- VIDEO: cambia el enlace de YouTube en el atributo src del iframe por el código de inserción de tu video. -->
+<section id="video" class="pagina">
+<h2>Recurso multimedia sobre cultura colombiana</h2>
+<div class="contenido video">
+<p>Observa este recurso educativo para conocer más sobre la biodiversidad de Colombia y la importancia de proteger sus ecosistemas.</p>
+<iframe src="https://www.youtube-nocookie.com/embed/MBcFRnkiYvs" title="Recurso educativo: Colombia, paraíso de biodiversidad" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<p class="video-fuente"><strong>Fuente educativa:</strong> <a href="https://www.colombiaaprende.edu.co/recurso-coleccion/colombia-paraiso-de-biodiversidad" target="_blank" rel="noopener noreferrer">Colombia Aprende — ¡Colombia, paraíso de biodiversidad!</a>. Este material se ofrece como recurso complementario para estudiantes de básica secundaria.</p>
+<div class="dato"><strong>Para reflexionar:</strong> ¿Qué ecosistemas colombianos reconociste en el video? ¿Por qué es importante proteger la biodiversidad?</div>
+</div>
+<button class="boton" onclick="mostrar('inicio')">← Volver al inicio</button>
+</section>
+
+<!-- INFORMACIÓN DEL OVA: actualiza los datos del proyecto, institución, objetivo e integrantes. -->
+<section id="contacto" class="pagina">
+<h2>Información del OVA</h2><div class="contenido">
+<h3>Datos del proyecto</h3>
+<p><strong>Nombre del OVA:</strong> Buenavista Aprende</p>
+<p><strong>Proyecto:</strong> Creación de un Objeto Virtual de Aprendizaje sobre cultura general.</p>
+<p><strong>Área:</strong> Cultura general colombiana.</p>
+<p><strong>Público:</strong> Estudiantes de grado séptimo.</p>
+<p><strong>Institución:</strong> Institución Educativa José María Silva Salazar, Buenavista.</p>
+<p><strong>Temas:</strong> Historia, geografía, ciencias, diversidad cultural, regiones naturales, gastronomía, música, arte, literatura y juegos.</p>
+<p><strong>Objetivo:</strong> Fortalecer el aprendizaje significativo mediante contenidos contextualizados, actividades interactivas y estrategias lúdicas.</p>
+<p><strong>Integrantes:</strong> Leidy Yuliana Laitón Ramírez, Miryam Yorley Mendieta Moreno y Jireh Yaydi Mendieta Ramírez.</p>
+<p><strong>Formación:</strong> Técnico en programación de software · SENA · 2026.</p>
+</div><button class="boton" onclick="mostrar('inicio')">← Volver al inicio</button>
+</section>
+
+</main>
+
+<!-- PIE DE PÁGINA: cambia aquí el crédito, institución o año si es necesario. -->
+<footer><p>© Buenavista Aprende | Objeto Virtual de Aprendizaje</p><p>Institución Educativa José María Silva Salazar · Grado séptimo · 2026</p></footer>
+
+<!-- Conecta las funciones interactivas que están en js/script.js. -->
+<script src="js/script.js" defer></script>
+</body>
+</html>
